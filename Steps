@@ -20,10 +20,10 @@ Lab-3
 6- ./filename
 
 Lab-4
-Download google app engine 
-Download python 2.7
+Download google app engine https://www.npackd.org/p/com.google.AppEnginePythonSDK
+Download python 2.7 www.python.org
 Create on folder Google app engine 
-Edit- preference - select and put into python path- python url-
+Edit- preference - select and put into python path- python url- C:/Program Files/Python.exe
 Go to file - other directory - select file which is created in desktop 
 Run the program 
 Local host 8080
@@ -73,7 +73,13 @@ Sudo apt update
 Jps
 Sudo  apt install openjdk
 
-
+WORDCOUNT
+startCDH.sh
+jps
+nano aiml.txt
+hadoop fs -put aiml.txt aiml.txt
+hadoop jar p1.jar WCDriver aiml.txt WCOutput
+hadoop fs -cat WCOutput/part-00000 
 
 Hadoop>>training>>cdh4>>Hadoop 2.0>>share>>Hadoop>>common>> 1st one select then add
 For  another jar
