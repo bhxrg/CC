@@ -23,13 +23,10 @@ Goes in Hadoop-env.sh
 
 	export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
-
-
 sudo mv hadoop /usr/local/hadoop
 sudo nano /etc/environment
 	
 	PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/hadoop/bin:/usr/local/hadoop/sbin"JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
-
 
 sudo adduser hadoopuser
 sudo usermod -aG hadoopuser hadoopuser
@@ -41,12 +38,8 @@ sudo nano /etc/hosts
 sudo nano /etc/hostname
 sudo reboot
 
-
-
 su - hadoopuser
 ssh-keygen -t rsa
-
-
 
 ssh-copy-id hadoopuser@hadoop-master
 
@@ -64,11 +57,7 @@ sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
     </property>
 </configuration>
 
-
-
 sudo nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
-
-
 
 <configuration>
     <property>
@@ -76,12 +65,6 @@ sudo nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
         <value>1</value>
     </property>
 </configuration>
-
-
-
-
-
-
 
 
 sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
@@ -106,24 +89,12 @@ sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 </configuration>
 
 
-
-
-
-
 source /etc/environment
 hdfs namenode -format
 
-
-
-
 start-dfs.sh
 
-
-
-
 nano .bashrc
-
-
 
 export HADOOP_HOME="/usr/local/hadoop"
 export HADOOP_COMMON_HOME=$HADOOP_HOME
@@ -147,13 +118,6 @@ sudo nano /usr/local/hadoop/etc/hadoop/yarn-site.xml
 </configuration>
 
 
-
 start-yarn.sh
 
 sudo apt remove pdsh
-
-
-
-
-
-
