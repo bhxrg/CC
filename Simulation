@@ -1,0 +1,28 @@
+cloudbus.org/cloudsim/CloudAnalyst.zip
+C:\CloudAnalyst>java -cp jars/simjava2.jar;jars/gridsim.jar;jars/iText-2.1.5.jar;classes;. Cloudsim.ext.gui.GuiMain
+java --version 
+https://www.oracle.com/java/technologies/downloads/?er=221886
+setx JAVA_HOME "C:\Program Files\Java\jdk<version>"
+setx PATH "%PATH%;%JAVA_HOME%\bin"
+
+### Configuration 
+
+#### Setup:
+- Six user bases.
+- One datacenter with 50 virtual machines, each with 1024 MB memory and 100 MIPS processor speed.
+
+#### Procedure:
+
+1. Start Cloud Analyst by clicking on the `run.bat` file.
+2. Navigate to the "Configure Simulation" tab.
+3. In the "Main Configuration" tab, add six user bases.
+4. Set memory to 1024 MB in the "Application Deployment Configuration" table.
+5. Set the number of VMs to 50.
+6. Navigate to the "Data Center Configuration" tab and select DC1.
+7. Set the processor speed to 100 MIPS in the "Physical Hardware Details of Data Center" table.
+8. Save the configuration with a name.
+9. Click "Done".
+10. Click "Run Simulation".
+11. Wait for the results.
+12. Note down the average, maximum, and minimum response times and datacenter processing times.
+13. Draw corresponding graphs.
