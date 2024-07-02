@@ -1,0 +1,15 @@
+Summary of Commands
+Here's a quick summary of the commands for your reference:
+
+Start CDH: ./StartCDH.sh
+Check Java Processes: jps
+Stop CDH: ./StopCDH.sh
+Create Directory in HDFS: hdfs dfs -mkdir /user/hadoop/jeev
+Create/Edit File (vi): vi textfile.txt
+Create/Edit File (nano): nano sample.txt
+Upload File to HDFS: hdfs dfs -put sample.txt /user/hadoop/Ramya
+Download File from HDFS: hdfs dfs -get /user/hadoop/Ramya/sample.txt
+Display File Content: hdfs dfs -cat /user/hadoop/Ramya/sample.txt
+Remove File from HDFS: hdfs dfs -rm /user/hadoop/Ramya/sample.txt
+Copy File in HDFS: hdfs dfs -cp /user/hadoop/Ramya/sample.txt /user/hadoop/jeev/sample.txt
+Move File in HDFS: hdfs dfs -mv /user/hadoop/Ramya/sample.txt /user/hadoop/jeev/sample.txt
