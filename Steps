@@ -1,0 +1,80 @@
+Lab CC
+Lab 2
+Check whether gcc is there are not
+1-Sudo app install gcc
+2- nano filename.c
+3- type program 
+4-crt -0 enter
+5- crt x
+6- gcc -o  filename filename.c
+7- ./filename 
+8- enter the input
+9- output will be stored in files
+
+Lab-3
+1- nano filename.c
+2- enter pg
+3- crt -o enter
+4-crt x
+5- gcc -0  filename 2 filename 1.c
+6- ./filename
+
+Lab-4
+Download google app engine 
+Download python 2.7
+Create on folder Google app engine 
+Edit- preference - select and put into python path- python url-
+Go to file - other directory - select file which is created in desktop 
+Run the program 
+Local host 8080
+
+Lab-1
+Download jdk 
+ Enter in chrome:-Cloudbus.org
+Cloud.org/cloudsim
+Scroll down
+Click on cloud analyt and download 
+And extract it to desktop 
+Go to cloud analyt 
+Configuration simulation 
+Open :-run.bat
+Use 4 user base
+ Vms -50 memory -1024 bw-100
+Save configuration stimulation 
+Run stimulation 
+Filename
+
+Lab-8
+ Google colab
+File - new notebook -  go to file and upload  +code 
+Pip install pyspark
+Code evrything 
+Go to dataset ..copy path and paste in code 
+
+Lab-7
+Go to Hadoop - terminal 
+StartCDH.sh
+Jps
+StopCDH.sh
+ Go to firebox- Hadoop manage-  name node-browse file system - user- Hadoop
+
+ hdfs  dfs -mkdir jeev
+Vi  textfile.txt
+Nano sample.txt
+Crt o enter crt x
+Hdfs dfs -put sample.txt/user/Hadoop/Ramya
+
+Hdfs dfs -get /user/Hadoop/Ramya/sample.txt
+Hdfs dfs -cat /user/Hadoop/Ramya/sample.txt
+Hdfs dfs -rm
+
+Lab- single node
+Sudo apt update 
+Jps
+Sudo  apt install openjdk
+
+
+
+Hadoop>>training>>cdh4>>Hadoop 2.0>>share>>Hadoop>>common>> 1st one select then add
+For  another jar
+Hadoop>>training>>cdh4>>Hadoop 2.0>>share>>Hadoop>>mapreduce>>client core (may be 3rd)
